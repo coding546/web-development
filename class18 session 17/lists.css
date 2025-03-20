@@ -1,0 +1,21 @@
+ul li{
+    list-style-type: none;/*this removes the bullets or numbers that are coming*/
+}
+#i1,.a{
+    display: inline;
+}
+#i2,.b{
+    display: inline;
+}
+#i3,.c{
+    display: inline;
+}
+#i4,.d{
+    display: inline;
+}
+#i5,.e{
+    display: inline;
+}
+#i6,.f{
+    display: inline;
+}

@@ -1,0 +1,84 @@
+table{
+    padding: 5px;
+    background-color: aqua;
+}
+#a{
+font-family: monospace;
+font-size: xx-large;
+font-style: italic;
+font-weight: bolder;
+color: blue;
+background-color: red;
+}
+#b{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+    background-color: burlywood;
+}
+#c{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: ivory;
+    background-color: brown;
+}
+#d{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: turquoise;
+    background-color: rgb(251, 139, 2);
+}
+#e{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: lawngreen;
+    background-color: sandybrown;
+}
+#f{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: royalblue;
+    background-color: navajowhite;
+}
+#g{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: seagreen;
+    background-color: firebrick;
+}
+#h{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: peachpuff;
+    background-color: darkcyan;
+}
+#i{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: navy;
+    background-color: rgb(199, 198, 198);
+}
+#j{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: salmon;
+    background-color: khaki;
+}
