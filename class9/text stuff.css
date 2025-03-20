@@ -1,0 +1,19 @@
+h1{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgba(0, 27, 123, 0.592);
+    color: rgba(255, 17, 0, 0.946);
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid rgb(0, 255, 0);
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 60px;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(89, 6, 0);
+}

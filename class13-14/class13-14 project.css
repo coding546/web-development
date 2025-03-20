@@ -1,0 +1,73 @@
+.i1, h1{
+    display:inline;
+}
+ul li{
+    display:inline;
+    margin-left:100px;
+}
+.part1, .part2, .part3{
+    display:inline-block;
+    margin-left:100px;
+}
+.part3{
+    position: relative;
+    left: 300px;
+}
+#i1{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+h2{
+    font-weight: bolder;
+    font-size: xx-large;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+h2 p{
+    display: block;
+}
+p{
+    position: absolute;
+    top: 315px;
+    left: 30px;
+}
+#q1{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(132, 0, 255);
+    color: rgb(132, 0, 255);
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+#q2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(132, 0, 255);
+    width: 100px;
+    height: 35px;
+    border-color: rgb(132, 0, 255);
+    position: absolute;
+    top: 450px;
+    left: 170px;
+}
+#id1{
+position: absolute;
+right: 0px;
+top: -30px;
+z-index: -1;/*this property is used to put the image in the back*/
+}
+#id2{
+position: absolute;
+left: 600px;
+top: 400px;
+}
+#id3{
+position: absolute;
+left: 400px;
+top: 600px;
+}

@@ -1,0 +1,27 @@
+img{
+    width: 500px;
+     height: 400px;
+     margin-top: -450px;
+     margin-right: 200px;
+     margin-left: 800px;
+     margin-bottom: 1000px;
+    float: left;
+}
+#css{
+    width: 1000px;
+    height: 500px;
+}
+#id{
+    height: 1000;
+    width: 0900;
+    background-color: rgb(187, 187, 187);
+}
+body{
+    background-color: rgb(130, 113, 116);
+}
+label{
+    font-size: large;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+}

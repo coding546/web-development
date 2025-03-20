@@ -1,0 +1,15 @@
+button{
+    position: absolute;
+    top:234px;
+    left: 423px;
+}
+p{
+    position: relative;
+    top: 543px;
+    left: 442px;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left:  33%;
+}

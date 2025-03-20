@@ -1,0 +1,14 @@
+button{
+    width: 1400px;
+    height: 75px;
+    background-color: rgb(105, 185, 105);
+}
+
+input{
+    height: 75px;
+    width: 1400px;
+    background-color: rgb(237, 237, 237);
+}
+input::placeholder {
+    font-size:large;
+}

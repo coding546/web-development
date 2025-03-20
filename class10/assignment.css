@@ -1,0 +1,20 @@
+body{
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: underline;
+    color: rgb(255, 255, 150);
+    text-shadow: 4px 4px 3px rgb(249, 24, 24);
+}
+p{
+    letter-spacing: 1px;
+    text-indent: 10px;
+    font-family: monospace;
+    color: rgb(255, 255, 150);
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow:1px 1px 2px ;
+    font-size: x-large;
+}

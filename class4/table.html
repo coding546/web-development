@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>table tags</title>
+    </head>
+    <body>
+        <!-----------Table
+        Table is something which has rows and columns. rows are horizontal. 
+         and columns are vertical. border is used to give lines all around the table. 1 means 1 line border. as we increase  the number the border size will increase.
+         We first use table tag. tr tag tr means table row. First tr tagmeans first row. in first row we always give
+         column heading
+         Inside first tr we use th tag th full form is table heading. it is used to give heading to every column. 
+           one th tag means one column. two th tags means two columns
+
+           Second  and so on other tr tags are used to give data. we use td tag for data td means table data.
+        ------------->
+        <table border="1">
+        <tr>
+           <th>Class</th>
+           <th>Age</th>
+           <th>School</th>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                13
+            </td>
+            <td>
+                St.merry school
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4
+            </td>
+            <td>
+                10
+            </td>
+            <td>
+                Valley Christian Elementery School
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                13
+            </td>
+            <td>
+                Valley Christian Junior High School
+            </td>
+        </tr>
+        </table>
+
+        <!--We can combine the rows using rowspan. if two rows are sharing the same data we can combine them.-->
+        <table border="3">
+            <tr>
+                <th>
+                    Class
+                </th>
+                <th>
+                    Age
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    7
+                </td> <!--if two students are sharing the same age. we can combine it in rowspan-->
+            <td rowspan="2">
+                12
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    8
+                </td><!-- coz we write rowspan=2 in first age we do not have to write anything or not td is required to be used-->
+            </tr>
+        </table>
+
+        <!----Colspan : Here we combine the columns -->
+        <table border="2">
+            <tr>
+            <th colspan="2">
+                Class
+            </th>
+            <th>
+                Age
+            </th>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                10
+            </td>
+            <td>
+                12
+            </td>
+        </tr>
+        </table>
+    </body>
+</html>
