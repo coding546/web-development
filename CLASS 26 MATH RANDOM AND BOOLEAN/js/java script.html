@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document1</title>
+</head>
+<body>
+    <script>
+        //random function
+        //random function is basicaly used to generate a random number within te specific range
+        //Math.floor it ignores the decimal value
+     function rand11(a, b){
+        a=Math.ceil(a)
+        b=Math.floor(b)
+        return Math.floor(Math.random()*b-a+1)+a; //not it will generate number between min and maxx number
+     }
+
+     let rand1=rand11(10, 10253)
+     document.write(rand1+"<br>");
+
+     //boolean function
+document.write(Boolean(3>10))   // generates boolean value for given condition. if condition is true then True comes and
+// if condition is false then False comes.
+
+//
+     
+    </script>
+</body>
+</html>
