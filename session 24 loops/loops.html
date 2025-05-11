@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            //\\\\\\\\\\\\\Loops///////////////////////
+            //1. for loop : for loops is used to repeat the code again till some specific condition. that means code will repeat till the condition is true.
+            //eg : need to print hello 10 times. it is called as repeat until in sceatch amd while loop in mit app inventor
+
+            //4 things are imp to use loop:
+            //1. start point or when loop begins : create variable and store start point in that
+            //2. end point or how many times needs to repeat :  give variables less than equal value
+            //3. counting or increament : increase variable to count
+            //4. code to repeat or task : we write code one time which we need to repeat
+
+            //real life xample of loop : need to do one task again n again : things we need to know : 
+            //1. Tasl 2. when task begins 3. when task ends or how many times need to repeat 4. counting
+
+            //syntax : for(startpoint;endpoint;increament(counting)){
+            //code
+        //}
+
+            //without loop
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello");
+            document.write("hello")
+           
+            //how loop works:
+            // first it chekc conditions f i is less tahn 10 loops goes on, then icreaments again check condidtion and prints hello, 
+            //again increaent again checks conditions and prins.. like his it does 11 times when i becomes 11 it checks conditions which is not meeting as i is > 10
+            //whihc is false so loop stops.
+
+            //with loop
+            for(var i=1; i<=10;i+=1){ //till the time I is less than or equal 10 loop repeat when it becomes 11 loop stops
+            document.write("hello"+"<br>");
+
+            }
+
+            //Advantages:
+            //1. makes code shorter
+            //2. Saves time sometimes
+
+            //Example 2 " print all even numbers till 100"
+            for(var l=0; l<=10; l+=1){
+                document.write(l +"<br>");
+            }
+
+            //2. while loop :  this is also used to repeat the code same as for loop. we need here too 4 important things
+            //syntax : start point
+            //while(end point ot condition to stop loop){
+            //code to repeat
+            //increament
+        //}
+         
+        //print hello 10 times
+        let r=1
+        while(r<=10){
+       document.write("hello"+"<br>"+"<br>");
+       r++;
+        }
+
+        
+        //---------------------------------Arrays----------------------------------
+        //Arrays are used to store lots of data together in variables. if we combine variable with arrays we ar able to store lots of data.
+        //This is similar to list in scratch and mit app inventor. [] is used. unlimited data can be given. let, var, const can be used.
+        //syntax to have array : var variablename=[value1, value2, value3....]
+
+        let arr=[1,2 ,3 ,4, true, "Hello"]
+        document.write(arr+"<br>");
+
+        //3. for of loop : for of loop is used to loop over arrays which means with the help of loop we get all data from array and use it.
+        //let say we have 100 of data inside array then it is difficult to get all of them and use it  so that is why we have for of loop to get all data one by one in rounds. it ends when no data is left.
+        //but is is very fast so it will look like it gets all data in one go bu gets it one at one time only but very fast speed.
+        //syntax to use for for of loop :we have one variable here we gets inside array and get all data for us.
+        //for(let a of arrayname){}
+        let arr1=[2, 23, 100, 300, 600]
+        //add all numbers in array using loop
+       let total=0
+        for(let a of arr1){
+            total+=a
+        }
+        document.write(total+"<br>");
+
+        //---------------------------------Dictonary------------------------------------------------
+        //Dictonary means to store lot of data in variable likearray. but differnce it also stores meaning of the data.
+        //array stors only value but here we can can store both meaning(keys) and value.
+        //It is like real time dictonary : we have one word given and the meaning of the word.
+        //syntax to create dictonary={
+       // "defenition":"value"
+    //}   
+       let dict={
+        "marks": 200,
+          "age": 12,
+          "name": "John"
+
+       }
+
+       //4. for in loop : for in loop is used to loop over dictonary.It gets all data from dictonary.
+       //syntax for for in loop : for(var variablename in dictonaryname){}
+       //it will get all values
+       let s=""
+       for(let z in dict){
+        s+=dict[z]
+       }
+       document.write(s+"<br>")
+
+       //--------------------------Assignment---------------------------
+       //1. create an array of different numbers and store atleast 10 numbers in that any. use for of loop 
+       //use if then else inside for of loop to check if number is even number then print its is even else print it is odd
+       //2. create dictonary with keys name,class,id, email with values of student. use for in loop to get data 
+       //print dictonary on screen.
+       document.write("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>");
+       let arr4=[4, 23, 33, 56, 75, 45, 6, 3, 42, 10]
+       let hello=0
+        for(let a of arr4){
+            hello+=a
+            if(hello%2==0)
+            document.write(hello+" even"+"<br>")
+        else{
+            document.write(hello+" odd"+"<br>");
+        }
+        }
+        document.write("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>");
+       let o={
+        "name": "Bob ",
+        "class": "4th ",
+        "id":  32,
+        "email": " bob.s@gmail.com "
+       }
+       let m=""
+       for(let f in o){
+m+=o[f]
+       }
+       document.write(m+"<br>")
+
+</script>
+    </body>
+</html>

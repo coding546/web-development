@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //string functions
+        //1. length it is used to find the size of strings how many characters it will counts and how amy are ther
+        let s="wejdwjjkdjljwd1jw@as78oq 83u492o8 0)(*(^%#$RUIJH FTY HJ YLUIHJRF R#E#!@WER&UYHLIH: Jod[f'o[epr[ g 'sdpogsdg]sd]f\asdifeny4 8tyriug hdjkshlvaodhusyuerslg kj iuroygljiujJYHIYTY*&*W^**IO(&)*&%##@d @! 2 478trylfaud;faofsadui35284t oweufiyw ;ea'eok q[eoq30[we;uor  qjweflq;wjefoiq e9 q;u'f/sdfj;oeriter8gdjk f;sd 837owty23tu4hwe;faosw 784305ypw 84i;oefuo[w ;op3q;u 3r9[23'/rajr;eifo34ut[357v96u;/r sdufj isd;ofb7wu;rye;akdfh8fw y489u1y9p8y5r3780w8eqwqew=fq[wef \en wif qeifdfjasdfhlkjayfh lo4eu flyhushifwe pif;we; fs ad/f epf;io34623452kjgh sdlkjfh9730259807495801983512341234.12/3523;l4i51903458349noiwejfq8 3p4u89fy;q4or; 'wqurpq u;'oar4l asf/dsdj;zioqoup34 27905u'w4t/lr fi;j owu3;485 i;utrgkl/jsl/fkd.jiwo;u r/sti;e4 fo[w4;5tiwreg/j;w/4t'4w3[2[902 34u ti;rjf.,djz.djlot 845iw u903iiq uo4;iroa'ewr94ruoqiwer4;qi're /qjeiwr'q4o 'iqtu'8345 oiq76o4 d'o/afu[901uq8efosidfj;asdiklfyor;ufe;r;foid[doda]ao iuifo eafo]aido foi qe[oif jwer\fjwefj]dsf]jsa[dfasdlkfjaslkdf j;alskjfalksdj;f io43;utiof a/f/aio'qqoeour847598 fhdknc;,z.dmdz/jodks;ak'akslqkqsa\q-101o=19850394t uoeirjldkpkdkop3d k2kd 384y fkj er df asdfae r4 f dg df as  f4 gasdfarwefw3u4ty3489tkasdjfaiwo'fdajds/. as;jdo ifuewoifuhdk8 29urfiwue ru23489otiupowierw984tu98utw983yr9u wp4 98fup weoi fjps8dcoiljad8weur934uyoeu9w38ou4798tuweriotjwelfkj sd 98ufy3498urpheugjfhg895y987w578wrioujseoit34895734yrkjflkfajdnckjadhfu i43y25o83475834684752p398puq oi hlfkajsd r;8o342p57698436598347p2i4u9u3pqui tueihpq8349yt924[q'weo itqewireiwurqweiurypiquwetryqowe uryeiwuyriuwe oiry p2kd" // space is also counted
+        let l=s.length;
+        document.write(l +"<br>");
+  //Note : Index value or position number given to charcters are always start from 0,1,2,3... so on
+        //2. charAt() : it returns the character of string we need to write the position number
+        let r=s.charAt(2);
+        document.write(r +"<br>");
+
+        //3. slice() : is used to extract or delete any part of string
+        let r1="hello this is good"
+      let part=r1.slice(3, 12)// starting from 3 position till 12 position everything is deleted. the chracters left before and after is answer
+      document.write(part+"<br>")
+
+      //4. split().join() : it splits or deletes any specific chracter 
+      let rj="blueberry"
+      let rj1=rj.split("e").join("") // first we split all e chracters  and join them back
+      document.write(rj1+"<br>")
+
+      //5. toLowerCase() : converts to small letters
+      let f1="ABCPQRSTUVWXY AND Z"
+      let f2=f1.toLowerCase()
+      document.write(f2+"<br>")
+      
+      //6. toUpperCase() : converst all letetrs to capital letters
+      let f11="dljjfksldfjs"
+      let f12=f11.toUpperCase()
+      document.write(f12+"<br>")
+
+      //7. trim() : trims white spaces from left and right side
+      let space="  hello    "
+      let ss=space.trim()
+
+      document.write(ss+"<br>");
+
+      //8. replace spacified value with another value
+      let rk="Adhvaith is my name"
+      let rk1=rk.replace("name", "first name")
+      document.write(rk1+"<br>")
+
+      //9. match() : returns an array containing the result of given string
+      let h="today it was a sunny day"
+      let h2=h.match("unny")
+      document.write(h2+"<br>")
+
+      //--------------------------Array Functions-----------------
+      //1. length:  size of the array
+      let arr1=["apple", 1, 2, 3,4, 5, 6, 7, 8, 9,10, "hello"]
+      let arr2=arr1.length
+      document.write(arr2+"<br>")
+
+      //2. pop() : delete  data from end
+      let arr3=arr1.pop()
+      document.write(arr1+"<br>")
+
+      //3. push() : add data from end
+      arr1.push("Hi")
+      document.write(arr1+"<br>")
+
+      //4. shift() : is used to delete data from beginning or left side
+      arr1.shift()
+      document.write(arr1+"<br>")
+
+      //5. unshift() : is used to add data from left side
+      arr1.unshift("mango")
+      document.write(arr1+"<br>");
+
+      //6. splice() : add data at mentioned position
+      arr1.splice(2,1,  "kiwi", "hi")
+      document.write(arr1+"<br>");
+
+      //7. replace data
+      arr1[1]="berries"
+      document.write(arr1+"<br>")
+
+      //8. slice() :deletes spacific data or part
+      let aa=arr1.slice(6) // first 6 elements will be deleted
+      document.write(aa+"<br");
+
+      //9. sort() : sorts alpahbetically
+      let we=["blue", "room", "apple", "banana"]
+      we.sort()
+      document.write(we+"<br>")
+
+      
+     //10. reverse() : reverse 
+
+     we.reverse()
+      document.write(we+"<br>")</script>   
+</body>
+</html>

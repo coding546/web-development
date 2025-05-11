@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            //variables are something that are used to store values that you will use alot later in the code.
+            //variables are just like the containers or the folders where you save things you will need later
+            // you can only store four things in a variable
+            //text,numbers,boolean,string values there are only two boolean values true and false,a string is a combo of numbers,special charactars and letters with no space
+            //rules to create or give variable name
+            //1. variables also have a name like the folders in your computer.
+            //their names always start with a letter so you can't type a number for the beggining charactar
+            //2.no special characters are allowed in the variable name except _
+            //3. two variables can not have the same name
+            //4. you can't give spaces in the variables name
+            //5.three keywords can be used to create variables -let,var,const
+            // in ONE variable you can only ONE value try to give a relavent name according to what value you are storing so it is easy to code
+            //syntax to create variable is-let variablename=value;
+            let name="adhvaith"; 
+            document.write(name+"<br>")
+            document.write("name"+"<br>")
+            var num1=37
+            var num2=8
+            document.write(num1/num2+"<br>")
+            //the difference between let,var,const let and var are changeabel that means you can change the value stored in them later but in const variable you can't change it later if you try an erorr will come
+            var a=3
+            document.write(a+"<br>")
+            a=4
+            document.write(a+"<br>"+"<br>")
+            //variables are never written in qouts but the value is except when it is purely number
+            //-----------------------------operators-----------------------
+            //1. Arithmetic sign : +, -, *,/(divide two numbers answer as quotient), %(modulo or modulus) : divides two numbers and give answer remiander
+            //2. Comparison operator : <, >, <=, >=, ==(equal to compare or check if two things are equal. in if then else we always use == ), !=(not equal)
+            //3. assignment operator : Here we assign value to variable by adding, subtracting, multiplying, dividing...
+            //eg :
+            var c=4;
+            c=6// means now c has 6 inside that its repalcing
+            c/=6// means we are assigning  6 to c by adding to it, as c already has 6 inside that means now it wil become 12.
+            document.write(c +"<br>");
+
+            //4. Logical opertaor: ||(or), &&(and), !(not)
+
+            //--------------------------Conditions----------------------
+            //Conditions means if one condition is true or happens then enxt  thing will happen, if condition is false then else part is exceuted.%
+    
+ //syntax : if(condition){
+          //part
+          //}
+          //else{
+          //part
+          //}
+
+            //For multiple conditon :
+            //use else if(){}
+
+            //1. create a variable, store number in that. check if no is gretarer than 18 then print your can ahve license else print you cannot ahve license
+
+            let num=12;
+            if(num>18){
+                document.write("you can have a driver's license"+"<br>");
+            }
+             else{
+                document.write("you can't have a driver's license"+"<br>");
+             }
+
+             //----------------------prompt()-----------------------------
+             //prompt() is used to take input from user means it ask a question from user and user gives an answer whcih we store in a variable.
+             
+             //2. take username and password from user. check if username is equal to "Adhvaith" and password is equal to "ad123" print correct else incorrect
+
+             let username=prompt("Enter your username")
+             let password=prompt("Enter your password")
+
+             if(username=="Adhvaith" && password=="ad123"){
+                document.write("correct" +"<br>");
+             }
+              else{
+                document.write("incorrect" +"<br>");
+              }
+
+              //3. take input from user score. check if score is between 90 to 100, then print grade A, else if score is between 80 to 90 then print grade B, else if grade is between 70 to 80 then print garde c else print d grade.%
+              var score=prompt("enter your test score");
+             if(score<=100 && score>=90){
+                document.write("A")
+             }
+             else if(score<=89 && score>80){
+document.write("B")
+             }
+             else if(score<=79 && score>60){
+document.write("C")
+             }
+             else{
+                document.write("D")
+             }
+
+              
+        </script>
+    </body>
+</html>

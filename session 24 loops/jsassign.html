@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            //1.  use while loop  between 1 to 100. check if number which are multiples of 3 and 5 both then print fizzbuzz else if number isdivisibke by only 5 print buzz else if number is divisible by only 3 print fizz. (
+            //hint : use while loop and inside if then else. )
+            //2. use for loop between 1 to 1000. check if numbers are divisible by  3 and 5 both then print those
+            //numbers sum eg : 15+30+.... so all numbers sum will be printed till 1000
+
+            //assignment num 1
+            let n=1
+            while(n<=100){
+                if(n%15==0){
+                document.write(n+"fizzbuzz"+"<br>")}
+            else if(n%5==0){
+                document.write(n+"buzz"+"<br>")
+            }
+            else if(n%3==0){
+                document.write(n+"fizz"+"<br>")
+            }
+            else{
+                document.write(n+"<br>")
+            }
+        n+=1
+        }
+document.write("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>")
+    //assignment num 2
+   for(var num=15; num<=1000; num+=15){
+document.write(num+"<br>")
+   }
+   //----------------------------------------------Assignment-------------------------------
+        //1. print all numbers which are divisible  by 4 till 40 using while loop.
+        //2. print even and odd for all numbers between 1 to 60 using for loop. here use if then to chekc if its even print even else odd inside for loop.
+        let d=4
+        while(d<=40){
+            document.write(d+"<br>")
+            d+=4;
+        }
+        for(var n1=1;n1<=60;n1+=1){
+            if(n1%2==0){
+                document.write(n1+" is even number"+"<br>")
+            }
+            else{
+                document.write(n1+" is odd number"+"<br>")
+            }
+            
+        }
+
+        </script>
+    </body>
+</html>
