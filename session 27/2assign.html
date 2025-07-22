@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2assign.css">
+    <title>Document</title>
+</head>
+<body>
+        <!--create a login page(you can use the other login page and add on) create a function and get the value's of the email and the password and store it into a variable check if the email is equal to the proper email and the pasword is equal to the proper password and print the password and username are right else print the password and username are not correct-->
+        <div>
+            <img src="image.png">
+           <h1>
+            login here
+           </h1>
+           <label id="l1">
+            username
+           </label>
+           <input type="text" id="i1" placeholder="enter username">
+           <label id="l2">
+            password
+           </label>
+           <input type="password" id="i2" placeholder="enter password">
+           <button onclick="login()">login</button>
+           <br>
+           <br>
+           <a href="lost your password.html" target="_blank" id="a1">lost your password?</a>
+           <br>
+           <a href="new account.html" target="_blank" id="a2">Don't have an account?</a> 
+           <p id="ab"></p>
+        </div>
+<script>
+function login(){
+    var a=document.getElementById("i1").value
+var b=document.getElementById("i2").value
+if (a=="dragonsarecool!!!" && b=="1234567890"){
+document.getElementById("ab").innerHTML="correct password"
+}
+else{
+    document.getElementById("ab").innerHTML="incorrect password"
+}
+    
+}
+</script>
+
+</body>
+</html>

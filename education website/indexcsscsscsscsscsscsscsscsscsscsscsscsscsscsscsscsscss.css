@@ -1,0 +1,371 @@
+#div2{
+    width: 1000px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    color: white;
+}
+
+#h1n1,#p1,#p2,#p3,#b1{
+    display: inline;
+    margin-left: 45px;
+}
+#p1{
+    margin-left: 450px;
+}
+#b1{
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    margin-top: 5px;
+    background-color: rgba(101, 101, 255, 0.573);
+    border-color: rgba(101, 101, 255, 0.573);
+}
+#div1{
+    background-color: rgb(67, 67, 255);
+    height: 700px;
+    width: 1440px;
+    position: absolute;
+    left: 0px;
+}
+#h1n2{
+position: absolute;
+top: 200px;
+left: 220px;
+color: white;
+font-weight: bolder;
+}
+#p50{
+    position: absolute;
+    top: 300px;
+    left: 220px;
+    line-height: 30px;
+}
+#b2{
+    background-color: orange;
+    border-color: orange;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 450px;
+    left: 220px;
+}
+#div10{
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    top: 215px;
+    left: 700px;
+}
+#h6n1{
+position: absolute;
+top: 15px;
+left: 35px;
+}
+#h2n1{
+    position: absolute;
+    left: 55.5px;
+    top: -15px;
+}
+#div11{
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 660px;
+}
+#h6n2{
+position: absolute;
+top: 15px;
+left: 35px;
+}
+#h2n2{
+    position: absolute;
+    left: 31px;
+    top: -15px;
+}
+#i199{
+position: absolute;
+left: 63px;
+top: 8px;
+}
+img{
+    position: absolute;
+    left: 850px;
+    top: 180px;
+    height: 500px;
+    width: 400px;
+}
+#div600{
+    height: 350px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    top: 708px;
+    left: 100px;
+}
+#div70{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(234, 159, 20);
+    position: absolute;
+    top: 900px;
+    left: 80px;
+    border-radius: 5px;
+    color: white;
+    border-color: black;
+}
+#div700{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(147, 99, 236);
+    position: absolute;
+    top: 750px;
+    left: 80px;
+    border-radius: 5px;
+    color: white;
+    border-color: black;
+}
+#div123{
+    height: 90px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    position: absolute;
+    top: 770px;
+    left: 80px;
+    border-radius: 5px;
+}
+#div234{
+    height: 90px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    position: absolute;
+    top: 925px;
+    left: 80px;
+    border-radius: 5px;
+}
+.blah{
+    position: absolute;
+    top: 800px;
+    left: 900px;
+    width: 400px;
+}
+.blahblah{
+    position: absolute;
+    top: 110px;
+    width: 500px;
+}
+.blahblahblah{
+    margin-top: 10px;
+    font-size: smaller;
+}
+.learn{
+    background-color: rgb(237, 156, 6);
+    border-radius: 12px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 200px;
+    border-width: 0px;
+    color: white;
+}
+.divsomething{
+    width: 1440px;
+    height: 270px;
+    background-color: rgb(77, 77, 231);
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+}
+.divdiv{
+    width: 400px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 235px;
+    border-radius: 5px;
+}
+.h66{
+    position: absolute;
+    left: 335px;
+    top: 25px;
+}
+.h26{
+    position: absolute;
+    top: 10px;
+}
+.divdivdiv{
+    width: 500px;
+    height: 110px;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 700px;
+    border-radius: 5px;
+}
+.h666{
+    position: absolute;
+    left: 435px;
+    top: 25px;
+}
+.h266{
+    position: absolute;
+    top: 10px;
+}
+.h11{
+    color: white;
+    position: absolute;
+    left: 610px;
+}
+.course{
+    background-color: rgb(237, 156, 6);
+    border-radius: 12px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 220px;
+    left: 1125px;
+    border-width: 0px;
+    color: white;
+}
+.heading1{
+position: absolute;
+top: 1400px;
+left: 580px;
+}
+.paragraph{
+    position: absolute;
+    top: 1470px;
+    left: 500px;
+}
+.apple{
+border-width: 0px;
+background-color: black;
+color: white;
+font-size: large;
+font-weight: 500;
+position: absolute;
+top: 1550px;
+height: 50px;
+left: 250px;
+width: 350px;
+text-align: left;
+}
+.google{
+    border-width: 0px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    position: absolute;
+    top: 1550px;
+    left: 700px;
+    height: 50px;
+    width: 350px;
+    text-align: left;
+}
+#div6{
+    height: 200px;
+    width: 1440px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1742px;
+    color: white;
+   }
+   .p1{
+color: orange;
+position: absolute;
+top: 10px;
+left: 100px;
+font-size: large;
+
+   }
+.p2{
+    position: absolute;
+    top: 35px;  
+    left: 100px;
+   }
+.p3{
+        position: absolute;
+        top: 60px;
+        left: 100px;
+   }
+.p4{
+    position: absolute;
+    top: 85px;
+    left: 100px;
+   }
+   .p5{
+    position: absolute;
+top: 110px;
+left: 100px;
+   }
+   .p6{
+    color: orange;
+    position: absolute;
+top: 10px;
+left: 500px;
+font-size: large;
+   }
+   .p7{
+    position: absolute;
+top: 35px;
+left: 500px;
+   }
+   .p8{
+    position: absolute;
+top: 60px;
+left: 500px;
+   }
+   .p9{
+    position: absolute;
+top: 85px;
+left: 500px;
+   }
+   .p10{
+    color: orange;
+    position: absolute;
+top: 10px;
+left: 900px;
+font-size: large;
+   }
+   .p11{
+    position: absolute;
+top: 35px;
+left: 900px;
+   }
+   .p12{
+    color: gainsboro;
+    position: absolute;
+top: -15px;
+left: 10px;
+   }
+   .b100{
+    position: absolute;
+top: 0px;
+left: 130px;
+height: 20px;
+width: 70px;
+border-radius: 0px;
+border-width: 0px;
+   }
+   .divvvv{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+   }

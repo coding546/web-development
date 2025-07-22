@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" onkeydown="keypressing()" onkeyup="keyreleasing()" id="demo">
+    <img src="Screenshot 2024-10-20 at 4.11.36 PM copy.png" onmouseover="onmouseover_img(this)" onmouseout="onmouseout_img(this)" width="60" height="60">
+    <!--this means img tag. as directly img tag name cannot be written in () of function-->
+    <script>
+        // event handler means when we do something from our side like preform any kind of action like pressing down on your keypad or mouse or pressing a key on your keyboard
+        // diffferent types of events are  
+        // 1. onclick  onclick means when you click on something then something happens 
+        // 2. onkeydown this means when we press down in a key board key somethng happens
+        // 3. on mouse over on mouse out which means when we put our mouse over something yjen something happens and when you remove your mouse something else happens
+        // 4. on submit this is usually used on forms were we enter some details and we want to save them
+        // 5. on load is used to refresh the screen
+        // (dom) \\
+        // dom library this library stands for document object model it has some inbuilt functions of java script like we have html tags to creare buttons, p tags, input boxes, etc.
+        // dom library gives us the functios which helps us create all these kind of thing like buttons , input boxes, etc.
+        // that means we don't have to use button tag or input tags to create these things we can use the dom library 
+        // dom library is another way but it only has a few functions so you can't replace all html with java script because not all tags have functions in dom only a few of them have it 
+        // in order to save time we can use it 
+        // it has other functions too like document.getelementbyid , by class name , by tag name 
+        // -------------Example 1 : onmouseover abd onmouseout------------------------------
+        // we will habe a image. when mouse is over iamge the size of image increases and whne mouse is out on screen the size of image decreases
+        // we will create two functions for both onmouseover and onmouseout and in one function we will incraese the szie and in another 
+        // functionwe will decrease the size and then call bothe function on them 
+        function onmouseover_img(x){
+            // we use width and height to increse size. we cannot use width and hieght directly on img tag as we do not have img tag here 
+            // in js. so we create variable on which we use width and height. after that when we call function
+            // variable is replaced with img
+            x.style.width="100px";
+            x.style.height="100px";
+
+           }
+
+            function onmouseout_img(x){
+             x.style.width="30px";
+             x.style.height="30px";
+            }
+
+    //---------------------------------------onkeydown------------------------------------------
+    //when we pressa key from keyboard some action is being performed.
+    //okeydown for when we press, onkeyup when we release
+    function keypressing(){
+    document.getElementById("demo").style.backgroundColor="red"
+    }
+
+     function keyreleasing(){
+     document.getElementById("demo").style.backgroundColor="green"
+     }
+    </script>
+</body>
+</html>
